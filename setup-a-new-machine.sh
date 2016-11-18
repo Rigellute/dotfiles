@@ -1,7 +1,7 @@
 # copy paste this file in bit by bit.
 # don't run it.
-  echo "do not run this script in one go. hit ctrl-c NOW"
-  read -n 1
+  # echo "do not run this script in one go. hit ctrl-c NOW"
+  # read -n 1
 
 
 ##############################################################################################################
@@ -42,7 +42,7 @@ cp ~/.gitconfig.local ~/migration
 cp ~/.z ~/migration # z history file.
 
 # sublime text settings
-cp "~/Library/Application Support/Sublime Text 3/Packages" ~/migration
+# cp "~/Library/Application Support/Sublime Text 3/Packages" ~/migration
 
 
 # iTerm settings.
@@ -177,7 +177,7 @@ echo $BASH_VERSION # should be 4.x not the old 3.2.X
 
 
 # setting up the sublime symlink
-ln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+# ln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 
 ###

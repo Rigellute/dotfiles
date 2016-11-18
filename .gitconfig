@@ -17,7 +17,7 @@
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 	# insanely beautiful diffs
-	pager = diff-highlight | diff-so-fancy | less -r
+	pager = diff-so-fancy | less --tabs=4 -RFX
 	
 # so much color
 [color]
@@ -74,3 +74,6 @@
 
 [init]
 	templatedir = ~/.git_template
+[user]
+	name = Rigellute
+	email = rigellute@gmail.com
